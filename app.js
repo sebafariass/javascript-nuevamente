@@ -1,51 +1,72 @@
-//tipos de datos
+//arreglos - array- vectores- matrices es lo mismo.- conjunto de elementos q podemos almacenar en un solo lugar
+/*var familia = ["juan", "sandra", "seba", "cristian", "lucia"];
+familia.push("andrea", "emilia", "camila");
+familia.pop()
 
 
-//numerico - float 
-// con decimal se llaman float y nº enteros integer
+
+document.write("tienes"  + " " + familia.length + " " +"familiares") */
 
 
-var edad = 19 / 2; 
 
 
-//string
-
-var nombre= "sebastian";
-var apellido = "ignacio"
-/* dobles comillas no pueden ir continuas para eso
-existen opciones o usamos comillas simples ( ' ' ) 
-o dobles ( " ") o tambien se puede usar (\"  texto\")*/
 
 
-var texto = 'Los videos son los "mejores" '
 
 
-//Array - Arreglos
+/*
+ var familia = ["juan", "sandra", "seba", "cristian","francisca", "fernanda", "emilia" ];
+ document.write(familia.join(" / ")); 
 
-var familia =["seba" , "juan" , "sandra" , "cristian"];
+
+//La otra forma de poder incluirlo es 
+
+var familia2 = familia.join(" / ");
+document.write(familia2) */
 
 
-//objetc - objetos
 
-var objeto = { 
-    color : "Red",
-    size : 12
-}
 
-//boolean - boleano
 
-var boleano = true;
+  
+ 
 
-//undefined - indefinido
 
-var duda;
-document.write(duda);
 
-//null - nulo 
+/*
 
-var numero2 = 10; 
-var numero2 = null; 
+**comando push para agregar datos a la ultima persona del string**
+var familia = ["juan", "sandra", "seba", "cristian"] 
+familia.push("Luis", "Pedro", "Ignacia")
+familia.pop();
 
-//NaN
-var texto2 = " hola como estas ";
-document.write(texto2 * 2);
+
+
+
+
+ document.write(familia[0]);
+document.write(familia[1]);
+document.write(familia[2]);
+document.write(familia[3]);
+document.write(familia[4]);
+document.write(familia[5]);
+document.write(familia[6]); 
+*/
+
+
+
+
+var familia = ["juan", "sandra", "seba", "cristian","francisca", "fernanda", "emilia", "ximena" ]
+
+var ordenados = familia.reverse();
+
+document.write("tienes " + familia.length + " amigos jugando a la pelota" + " se llaman " +  ordenados);
+
+/* comando para poder ordenar alfabeticamente las palabras .sort y reverse es  
+  es para ordenarlo alfabeticamente al revés
+
+
+
+/*
+var amigos = ["pedro", "juan", "diego", "pedro"];
+document.write("tienes " + amigos.length + " amigos jugando a la pelota"); */
